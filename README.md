@@ -36,8 +36,7 @@ classDiagram
     class News {
         - Icon: string
         - description: string
-        + getNewsInfo(): string
-    }
+        
 
     User "1" *--> "1"Account 
     User "1" *--> "N" Feature 
