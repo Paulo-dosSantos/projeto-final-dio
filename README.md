@@ -16,10 +16,10 @@ classDiagram
     }
 
     class Account {
-        - accountNumber: string
-        - accountAgency: string
-        - accountBalance: float
-        - accountLimit: float
+        - number: string
+        - agency: string
+        - balance: float
+        - limit: float
        } 
         
 
