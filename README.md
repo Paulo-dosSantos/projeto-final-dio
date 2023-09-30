@@ -11,6 +11,7 @@ classDiagram
         - features: Feature
         - card: Card
         - news: News
+        + getUserInfo(): string
        
     }
 
@@ -19,23 +20,27 @@ classDiagram
         - accountAgency: string
         - accountBalance: float
         - accountLimit: float
+        + getAccountInfo(): string
         
 
     class Feature {
         - icon: string
         - description: string
+        + getFeatureInfo(): string
         
     }
 
     class Card {
         - number: string
         - limit: float
+        + getCardInfo(): string
         
     }
 
     class News {
         - Icon: string
         - description: string
+        + getNewsInfo(): string
         
 
     User "1" *--> "1"Account 
