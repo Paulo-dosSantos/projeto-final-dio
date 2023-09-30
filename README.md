@@ -20,7 +20,7 @@ classDiagram
         - accountAgency: string
         - accountBalance: float
         - accountLimit: float
-        
+       } 
         
 
     class Feature {
