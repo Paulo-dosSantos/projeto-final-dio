@@ -40,9 +40,9 @@ classDiagram
         + getNewsInfo(): string
     }
 
-    User *1* *--> *1*Account 
-    User *1* *--> *N* Feature 
-    User *1* *--> *1* Card 
-    User *1* *--> *1*News 
+    User "1" *--> "1"Account 
+    User "1" *--> "N" Feature 
+    User "1" *--> "1" Card 
+    User "1" *--> "1"News 
 
 ```
