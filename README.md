@@ -40,9 +40,9 @@ classDiagram
         + getNewsInfo(): string
     }
 
-    User --> Account : has 1
-    User --> Feature : has 1
-    User --> Card : has 1
-    User --> News : has 1
+    User --> Account 
+    User --> Feature 
+    User --> Card 
+    User --> News 
 
 ```
