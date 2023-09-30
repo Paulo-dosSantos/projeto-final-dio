@@ -38,7 +38,7 @@ classDiagram
     }
 
     class News {
-        - Icon: string
+        - icon: string
         - description: string
         
         
