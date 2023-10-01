@@ -1,4 +1,4 @@
-package domain.model;
+package com.dio.santanderdev2023.domain.model;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

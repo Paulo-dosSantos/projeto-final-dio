@@ -1,4 +1,4 @@
-package domain.model;
+package com.dio.santanderdev2023.domain.model;
 
 import java.io.Serializable;
 
