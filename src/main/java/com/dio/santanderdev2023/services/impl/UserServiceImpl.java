@@ -2,6 +2,7 @@ package com.dio.santanderdev2023.services.impl;
 
 import java.util.NoSuchElementException;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.dio.santanderdev2023.domain.model.User;
@@ -11,6 +12,7 @@ import com.dio.santanderdev2023.services.UserService;
 @Service
 public class UserServiceImpl implements UserService{
 	
+	@Autowired
 	private UserRepository repository;
 
 	@Override
