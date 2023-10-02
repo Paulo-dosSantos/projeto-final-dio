@@ -30,11 +30,11 @@ public class User implements Serializable {
 	@OneToOne(cascade = CascadeType.ALL)
 	private Card card;
 	
-	@OneToMany(cascade=CascadeType.ALL, fetch=FetchType.EAGER
+	@OneToMany(cascade=CascadeType.ALL
 			/*traz os features quando buscamos o user*/)
 	private List<Feature>features;
 	
-	@OneToMany(cascade=CascadeType.ALL, fetch=FetchType.EAGER
+	@OneToMany(cascade=CascadeType.ALL
 			/*traz os features quando buscamos o user*/)
 	private List<News>news;
 	
