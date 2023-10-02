@@ -1,11 +1,11 @@
 package com.dio.santanderdev2023.domain.model;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
-import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -32,11 +32,11 @@ public class User implements Serializable {
 	
 	@OneToMany(cascade=CascadeType.ALL
 			/*traz os features quando buscamos o user*/)
-	private List<Feature>features;
+	private List<Feature>features=new ArrayList<>();
 	
 	@OneToMany(cascade=CascadeType.ALL
 			/*traz os features quando buscamos o user*/)
-	private List<News>news;
+	private List<News>news=new ArrayList<>();
 	
 	
 
